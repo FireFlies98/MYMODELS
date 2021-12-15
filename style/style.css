@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.header {
+    background: #4A4F56;
+    color: #FF8984;
+    width: 793px;
+    height: 82px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 19px;
+    padding-bottom: 4px;
+}
+
+.container {
+    background: #3B3F45;
+    width: 793px;
+    height: 425px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.blockfirst {
+    background-color: #88839E;
+    width: 534px;
+    line-height: 45px;
+    margin: auto;
+    border-top: 3px solid #88839E;
+    border-bottom: 3px solid #88839E;
+}
+
+.blockfirst:hover {
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    background-color: #625E77;
+}
+
+.blockfirst:active {
+    background-color: #FF8984;
+}
+
+.blocksecond {
+    background-color: #7A7593;
+    width: 534px;
+    line-height: 45px;
+    margin: auto;
+    border-top: 3px solid #7A7593;
+    border-bottom: 3px solid #7A7593;
+}
+
+.blocksecond:hover {
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    background-color: #625E77;
+}
+
+.blocksecond:active {
+    background-color: #FF8984;
+}
+
+[type="checkbox"] {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    margin-left: 12px;
+}
+
+[type="checkbox"]:after {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-color: #FFFFFF;
+    border-radius: 100%px;
+    position: absolute;
+}
+
+[type="checkbox"]:checked:after {
+    content: "";
+    top: 0;
+    left: 0;
+    background-image: url(../images/true.png);
+    background-size: 100%;
+}
+
+.food-name {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 16px;
+}
+
+.comments {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 21px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.thirdblock {
+    background-color: #4A4F56;
+    width: 534px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 129px;
+    text-align: center;
+}
+
+.forgiveness {
+    color: #FF8984;
+    font-size: 18px;
+    line-height: 21px;
+    margin: auto;
+    display: block;
+    padding-top: 12px;
+}
