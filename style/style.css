@@ -92,6 +92,11 @@ h1 {
     background-size: 100%;
 }
 
+[type="checkbox"]:checked~ span {
+    text-decoration: line-through;
+    color: #9b96ac;
+}
+
 .food-name {
     color: #FFFFFF;
     font-size: 18px;
